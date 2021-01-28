@@ -1,0 +1,48 @@
+{
+  "name": "@shenglong/use-tailwind-theme",
+  "version": "1.0.0",
+  "description": "A Hook for changing dark mode in Tailwind CSS",
+  "main": "dist/use-tailwind-theme.cjs.js",
+  "module": "dist/use-tailwind-theme.es.js",
+  "jsnext:main": "dist/use-tailwind-theme.es.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Shenglong Yu <shenglongy@outlook.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "hooks",
+    "tailwind",
+    "darkmode",
+    "theme"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenglongy/use-tailwind-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shenglongy/use-tailwind-theme/issues"
+  },
+  "homepage": "https://github.com/shenglongy/use-tailwind-theme#readme",
+  "dependencies": {
+    "@shenglong/use-localstorage": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "rollup": "^2.38.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  }
+}
